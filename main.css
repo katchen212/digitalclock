@@ -1,0 +1,106 @@
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  height: 120px;
+  width: 100%;
+  text-align: left;
+  background: black;
+  opacity: 0.95;
+}
+
+.navigation-bar a {
+  color: darkmagenta;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+  float: right;
+  text-align: right;
+  padding: 0px 200px;
+}
+
+.navigation-bar a:hover {
+  color: red;
+}
+
+.picture {
+  border-radius: 50%;
+  padding: 1%;
+  float: left;
+  display: inline-block;
+
+}
+
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0px;
+}
+
+h1, h3 {
+	margin: 0px;
+  color: white;
+}
+
+	.contentWrapper {
+		background: url("https://res.cloudinary.com/yoursiteil/image/upload/v1490954438/new-york-city-336475_1920_vj81wi.jpg") top center fixed #000;
+		background-size: cover;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    
+     
+	}
+
+		.contentWrapper > .clock {
+			height: 150px;
+			width: 400px;
+			border: solid 5px #fff;
+			font-size: 50px;
+			text-align: center;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+      opacity: 0.77;
+      z-index: 0.8;
+      background: rgba(0, 0, 0, 0.8);
+
+		}
+		.contentWrapper > .clock > div {
+				display: inline-block;
+        opacity: 0.77;
+       
+
+			}
+
+				.contentWrapper > .clock > .hr, .contentWrapper > .clock > .min  {
+					text-align: right;
+					width: 120px;
+          opacity: 0.77;
+
+				}
+
+				.contentWrapper > .clock > .colon {
+					transition: all .1s;
+					width: 30px;
+
+				}
+
+					.contentWrapper > .clock > .colon.blink {
+						opacity: 0.8;
+					}
+
+.contentWrapper > .clock > .AM {
+	display: flex;
+	margin-top: 25px;
+	width: 100px;
+  
+}
+
